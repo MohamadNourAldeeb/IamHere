@@ -3,5 +3,5 @@ node_modules
 dist
 mysql
 logs/*
-# mysql.rar
+mysql.rar
 uploads/*

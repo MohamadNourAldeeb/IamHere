@@ -6,9 +6,10 @@
 
 ## 📌 About
 
-**I Am Here** is a lightweight backend system built with [NestJS](https://nestjs.com/ ). It supports an **embedded MySQL server**, allowing it to function fully offline and independently.
+**I Am Here** is a lightweight backend system built with [NestJS](https://nestjs.com/). It supports an **embedded MySQL server**, allowing it to function fully offline and independently.
 
 This system allows companies to:
+
 - Create company accounts
 - CRUD for users accounts
 - Set working hours
@@ -47,14 +48,14 @@ Admins can manage employees, while employees can scan QR codes to log their atte
 
 ## 🛠️ Tech Stack
 
-| Layer           | Technology         |
-|----------------|---------------------|
-| Framework       | NestJS             |
-| Database        | MySQL *(local)*    |
-| ORM             | SequelizeORM       |
-| Caching         | Redis              |
-| Authentication  | JWT                |
-| Environment     | `.env` config      |
+| Layer          | Technology      |
+| -------------- | --------------- |
+| Framework      | NestJS          |
+| Database       | MySQL _(local)_ |
+| ORM            | SequelizeORM    |
+| Caching        | Redis           |
+| Authentication | JWT             |
+| Environment    | `.env` config   |
 
 ---
 
@@ -77,7 +78,6 @@ Admins can manage employees, while employees can scan QR codes to log their atte
 
    Create a `.env` file in the root directory and add the env_example file content and change it as you like:
 
-
    > 💡 This project supports running a local MySQL server without depending on external tools like XAMPP if you want.
 
 4. **Start the development server**
@@ -90,15 +90,35 @@ Admins can manage employees, while employees can scan QR codes to log their atte
    [`http://localhost:4023`](http://localhost:4023)
 
 ---
+
+## 🖼 Screenshots
+
+### Login Page
+
+![Login Page](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/home.png)
+
+### Qr
+
+![Qr](screenshots/qr.png)
+
+### User
+
+![User](screenshots/users.png)
+
+### Serverr
+
+![Serverr](screenshots/run server.png)
+
 🧪 Future Plans
 🖥️ Build a standalone desktop version (exe) for Windows/Linux
 🎨 Connect with Flutter-based frontend
 📄 Export attendance reports (PDF/Excel)
 📲 Mobile app support
 📧 Email notifications for admins
-
-
-
 
 ❤️ Contribution
 Contributions are always welcome!
