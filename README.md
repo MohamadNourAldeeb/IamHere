@@ -109,9 +109,9 @@ Admins can manage employees, while employees can scan QR codes to log their atte
 
 ![User](screenshots/users.png)
 
-### Serverr
+### Server
 
-![Serverr](screenshots/run server.png)
+![Server](screenshots/run_server.png)
 
 ---
 
