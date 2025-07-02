@@ -78,7 +78,7 @@ Admins can manage employees, while employees can scan QR codes to log their atte
    Create a `.env` file in the root directory and add the env_example file content and change it as you like:
 
 
-   > 💡 This project supports running a local MySQL server without depending on external tools like XAMPP if you want.
+   > 💡 This project supports running a local MySQL server without depending on external tools like XAMPP by make RUN_DB_LOCAL=true and DB_PORT=3307 in .env . the mysql server in main folder just unzip it .
 
 4. **Start the development server**
 
