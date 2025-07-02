@@ -3,7 +3,7 @@ LINK=http://localhost:4023
 SERVER_LINK=
 
 
-DB_PORT=3307
+DB_PORT=3306
 DB_HOST=localhost
 DB_NAME=iamhereapp
 DB_USER=root
@@ -15,7 +15,7 @@ REDIS_PASSWORD=
 
 
 
-RUN_DB_LOCAL=true
+RUN_DB_LOCAL=false
 
 #for jsonwebtoken JWT 
 TOKEN_SECRET_KEY =
