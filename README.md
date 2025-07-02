@@ -64,7 +64,7 @@ Admins can manage employees, while employees can scan QR codes to log their atte
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/i-am-here.git
+   git clone https://github.com/MohamadNourAldeeb/IamHere.git
    cd i-am-here
    ```
 
